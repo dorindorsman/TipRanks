@@ -1,8 +1,8 @@
-package com.example.tipranks.stocks.domain.utils
+package com.example.tipranks.app.domain.utils
 
 sealed interface Result<out D, out E : Error> {
     data class Success<out D>(val data: D) : Result<D, Nothing>
-    data class Error<out E : com.example.tipranks.stocks.domain.utils.Error>(val error: E) :
+    data class Error<out E : com.example.tipranks.app.domain.utils.Error>(val error: E) :
         Result<Nothing, E>
 }
 

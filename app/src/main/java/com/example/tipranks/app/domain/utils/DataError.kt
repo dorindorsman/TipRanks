@@ -1,4 +1,4 @@
-package com.example.tipranks.stocks.domain.utils
+package com.example.tipranks.app.domain.utils
 
 sealed interface DataError : Error {
     enum class Network : DataError {
@@ -7,12 +7,6 @@ sealed interface DataError : Error {
         NO_INTERNET_CONNECTION,
         SERVER_ERROR,
         SERIALIZATION,
-        UNKNOWN
-    }
-
-    enum class Local : DataError {
-        NO_STORAGE_ACCESS,
-        NO_STORAGE_SPACE,
         UNKNOWN
     }
 }
