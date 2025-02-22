@@ -1,10 +1,12 @@
 package com.example.tipranks
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.ui.Modifier
+import com.example.tipranks.app.navigation.AppNavigation
 import com.example.tipranks.ui.theme.TipRanksTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -16,7 +18,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TipRanksTheme {
-                
+                AppNavigation(
+                    modifier = Modifier.fillMaxSize()
+                )
             }
         }
     }
