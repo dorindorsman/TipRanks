@@ -1,4 +1,4 @@
-package com.example.tipranks.app.data.network.utils
+package com.example.tipranks.core.data.network.utils
 
 private const val BASE_URL = "https://trautocomplete.azurewebsites.net/"
 

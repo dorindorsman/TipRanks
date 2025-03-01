@@ -1,4 +1,4 @@
-package com.example.tipranks.ui.theme.colors
+package com.example.tipranks.app.ui.theme.colors
 
 import androidx.compose.material3.darkColorScheme
 

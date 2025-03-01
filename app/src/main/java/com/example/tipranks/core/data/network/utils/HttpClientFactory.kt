@@ -1,4 +1,4 @@
-package com.example.tipranks.app.data.network.utils
+package com.example.tipranks.core.data.network.utils
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.HttpClientEngine

@@ -1,8 +1,8 @@
 package com.example.tipranks.stocks.data.repository
 
-import com.example.tipranks.app.domain.utils.DataError
-import com.example.tipranks.app.domain.utils.Result
-import com.example.tipranks.app.domain.utils.map
+import com.example.tipranks.core.domain.utils.DataError
+import com.example.tipranks.core.domain.utils.Result
+import com.example.tipranks.core.domain.utils.map
 import com.example.tipranks.stocks.data.mapper.toStock
 import com.example.tipranks.stocks.data.network.RemoteStockDataSource
 import com.example.tipranks.stocks.domain.model.Stock

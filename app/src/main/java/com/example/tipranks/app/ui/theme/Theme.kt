@@ -1,10 +1,10 @@
-package com.example.tipranks.ui.theme
+package com.example.tipranks.app.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import com.example.tipranks.ui.theme.colors.DarkColorScheme
-import com.example.tipranks.ui.theme.colors.LightColorScheme
+import com.example.tipranks.app.ui.theme.colors.DarkColorScheme
+import com.example.tipranks.app.ui.theme.colors.LightColorScheme
 
 @Composable
 fun TipRanksTheme(

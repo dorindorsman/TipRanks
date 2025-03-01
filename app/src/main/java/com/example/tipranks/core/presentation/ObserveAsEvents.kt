@@ -1,4 +1,4 @@
-package com.example.tipranks.app.presentation
+package com.example.tipranks.core.presentation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

@@ -1,7 +1,7 @@
-package com.example.tipranks.app.data.network.utils
+package com.example.tipranks.core.data.network.utils
 
-import com.example.tipranks.app.domain.utils.DataError
-import com.example.tipranks.app.domain.utils.Result
+import com.example.tipranks.core.domain.utils.DataError
+import com.example.tipranks.core.domain.utils.Result
 import io.ktor.client.call.NoTransformationFoundException
 import io.ktor.client.call.body
 import io.ktor.client.statement.HttpResponse

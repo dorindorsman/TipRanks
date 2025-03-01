@@ -8,7 +8,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
-import com.example.tipranks.app.presentation.ObserveAsEvents
+import com.example.tipranks.core.presentation.ObserveAsEvents
 import com.example.tipranks.stocks.presentation.StocksEvent
 import com.example.tipranks.stocks.presentation.StocksScreen
 import com.example.tipranks.stocks.presentation.StocksViewModel

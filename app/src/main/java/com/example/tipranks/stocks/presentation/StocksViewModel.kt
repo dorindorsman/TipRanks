@@ -3,8 +3,8 @@ package com.example.tipranks.stocks.presentation
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.tipranks.app.domain.utils.onError
-import com.example.tipranks.app.domain.utils.onSuccess
+import com.example.tipranks.core.domain.utils.onError
+import com.example.tipranks.core.domain.utils.onSuccess
 import com.example.tipranks.stocks.domain.repository.StocksRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers

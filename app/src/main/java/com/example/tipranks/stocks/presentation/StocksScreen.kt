@@ -11,7 +11,7 @@ import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 import com.example.tipranks.stocks.domain.model.Stock
 import com.example.tipranks.stocks.presentation.views.SearchTopBarView
 import com.example.tipranks.stocks.presentation.views.StockScreenContent
-import com.example.tipranks.ui.theme.TipRanksTheme
+import com.example.tipranks.app.ui.theme.TipRanksTheme
 
 
 @Composable

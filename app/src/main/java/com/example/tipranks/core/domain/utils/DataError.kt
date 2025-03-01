@@ -1,4 +1,4 @@
-package com.example.tipranks.app.domain.utils
+package com.example.tipranks.core.domain.utils
 
 sealed interface DataError : Error {
     enum class Network : DataError {
