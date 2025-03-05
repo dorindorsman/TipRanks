@@ -13,7 +13,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object StockModel {
+object StockModule {
 
     @Singleton
     @Provides
@@ -26,6 +26,5 @@ object StockModel {
     fun provideStocksRepository(dataSource: RemoteStockDataSource): StocksRepository {
         return StocksRepositoryImpl(dataSource)
     }
-
 
 }

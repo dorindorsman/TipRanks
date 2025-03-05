@@ -15,7 +15,6 @@ import com.example.tipranks.stocks.presentation.StocksAction
 
 @Composable
 fun StockListScreen(stocks: List<Stock>, modifier: Modifier, onAction: (StocksAction) -> Unit) {
-
     LazyVerticalGrid(
         columns = GridCells.Adaptive(minSize = 120.dp),
         modifier = modifier

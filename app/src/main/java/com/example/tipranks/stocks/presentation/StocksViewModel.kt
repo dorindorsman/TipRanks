@@ -34,7 +34,6 @@ class StocksViewModel @Inject constructor(
         private const val TAG = "StocksViewModel"
     }
 
-
     private val _uiState = MutableStateFlow(
         StocksUiState(
             isSearchExpended = false,

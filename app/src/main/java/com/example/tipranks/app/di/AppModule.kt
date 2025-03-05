@@ -1,6 +1,6 @@
 package com.example.tipranks.app.di
 
-import com.example.tipranks.core.data.network.utils.HttpClientFactory
+import com.example.tipranks.core.data.network.HttpClientFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
